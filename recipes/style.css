@@ -1,0 +1,30 @@
+body {
+  background-color: #121212;
+  max-width: 920px;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.container > h2 {
+  text-align: center;
+  font-family: monospace, sans-serif;
+}
+
+.container > h1 {
+  text-align: center;
+  font-family: monospace, sans-serif;
+}
+
+img {
+  width: 920px;
+  height: auto;
+  border-radius: 10px;
+}

@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+body {
+  background-color: #121212;
+  max-width: 920px;
+  margin: 0 auto;
+  font-family: monospace, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+}
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.recipes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.recipes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 420px;
+  background-color: #404040;
+  border-radius: 10px;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.recipes-container > p {
+  font-size: 1.2rem;
+  font-family: monospace;
+  font-weight: 6500;
+}
+
+.recipes-container:hover {
+  background-color: #282828;
+}

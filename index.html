@@ -4,17 +4,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyRecipes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-      <li><a href="recipes/lasagna.html">White Cheese Chicken Lasagna</a></li>
-      <li>
-        <a href="recipes/tacos.html"
-          >Fiery Fish Tacos with Crunchy Corn Salsa</a
-        >
-      </li>
-      <li><a href="recipes/pie.html">Sweet Potato Pie</a></li>
-    </ul>
+    <h1 class="title">Odin Recipes</h1>
+
+    <div class="recipes">
+      <a href="recipes/lasagna.html">
+        <div class="recipes-container">
+          <img src="./recipes/lasagna.jpeg" />
+          <p>White Cheese Chicken Lasagna</p>
+        </div></a
+      >
+
+      <a href="recipes/tacos.html"
+        ><div class="recipes-container">
+          <img src="./recipes/tacos.jpeg" />
+          <p>Fiery Fish Tacos with Crunchy Corn Salsa</p>
+        </div></a
+      >
+
+      <a href="recipes/pie.html">
+        <div class="recipes-container">
+          <img src="./recipes/sweet-potato-pie-1.jpeg" />
+          <p>Sweet Potato Pie</p>
+        </div></a
+      >
+    </div>
   </body>
 </html>
